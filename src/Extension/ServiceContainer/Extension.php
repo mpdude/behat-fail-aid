@@ -28,7 +28,7 @@ class Extension implements ExtensionInterface
      *
      * Create definition object to handle in the context?
      */
-    public function process(ContainerBuilder $container)
+    public function process(ContainerBuilder $container): void
     {
         return;
     }
